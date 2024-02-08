@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+#no-button,
+#yes-button {
+  margin: 0 10px;
+  color: white;
+  height: 40px;
+  width: auto;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#yes-button {
+  height: 40px;
+  background-color: green;
+}
+
+#no-button {
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.message {
+  display: none;
+}
+
+.banner-gif {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.banner-gif img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+  body {
+    padding: 0 20px;
+  }
+}
